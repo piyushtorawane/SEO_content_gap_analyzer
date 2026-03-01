@@ -58,7 +58,7 @@ Generate Report File
 
 ## 🖼 Workflow Overview
 
-![Workflow](workflow-overview.png)
+![Workflow](workflow-overview.png.png)
 
 ---
 
