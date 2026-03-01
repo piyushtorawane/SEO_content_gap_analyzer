@@ -102,3 +102,6 @@ Option B – API Call
 curl -X POST "YOUR_FORM_URL" \
   -H "Content-Type: application/json" \
   -d '{"keyword":"content marketing strategy"}'
+## 🏗 Workflow Overview
+
+![Workflow](workflow-overview.png.png)
