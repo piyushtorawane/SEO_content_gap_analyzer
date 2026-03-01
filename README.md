@@ -1,3 +1,4 @@
+
 # 🚀 SEO Content Gap Analyzer  
 AI-Powered Competitive Content Intelligence (n8n + Gemini)
 
@@ -19,7 +20,19 @@ This n8n workflow performs automated SEO content gap analysis by:
   - Prioritized recommendations
   - Suggested content outline
 
-Output: Downloadable structured text report.
+**Output:** Downloadable structured text report.
+
+---
+
+## ⚡ Features
+
+- Automated competitor scraping (Top 5 Google results)
+- Structured AI output using JSON schema
+- Content gap identification
+- Prioritized SEO recommendations
+- Suggested content outline generation
+- Downloadable report export
+- Error-tolerant page fetching
 
 ---
 
@@ -43,18 +56,24 @@ Generate Report File
 
 ---
 
+## 🖼 Workflow Overview
+
+![Workflow](workflow-overview.png)
+
+---
+
 ## 🔌 Data Sources
 
 - **User Input** – Keyword via form trigger  
 - **SerpAPI** – Top Google organic results  
 - **Competitor Pages** – HTML scraping  
-- **Google Gemini (models/gemini-2.5-flash)** – AI analysis  
+- **Google Gemini (`models/gemini-2.5-flash`)** – AI analysis  
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1. Prerequisites
+### 1️⃣ Prerequisites
 
 - n8n (Cloud or Self-hosted)
 - SerpAPI API key
@@ -62,45 +81,46 @@ Generate Report File
 
 ---
 
-### 2. Add Credentials in n8n
+### 2️⃣ Add Credentials in n8n
 
 **SerpAPI**
-- Credentials → New → SerpAPI
-- Add API key
+- Credentials → New → SerpAPI  
+- Add API key  
 
 **Google AI**
-- Credentials → New → Google AI
-- Add API key
+- Credentials → New → Google AI  
+- Add API key  
 
 ---
 
-### 3. Import Workflow
+### 3️⃣ Import Workflow
 
 - Import `seo-content-gap-analyzer-n8n.json`
 - Save
 
 ---
 
-### 4. Assign Credentials
+### 4️⃣ Assign Credentials
 
 - Select SerpAPI credential in SerpAPI node
 - Select Google AI credential in Gemini node
 
 ---
 
-### 5. Run Workflow
+## ▶️ Run Workflow
 
-Option A – Web Form  
+### Option A – Web Form
+
 - Open Form Trigger URL  
 - Enter keyword  
 - Wait ~30–60 seconds  
 - Download report  
 
-Option B – API Call
+---
+
+### Option B – API Call
 
 ```bash
 curl -X POST "YOUR_FORM_URL" \
   -H "Content-Type: application/json" \
   -d '{"keyword":"content marketing strategy"}'
-## 🏗 Workflow Overview
-[Workflow](workflow-overview.png)
