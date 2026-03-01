@@ -1,51 +1,44 @@
 keyword:finance
 commonTopics
-0:Financial News & Market Data (Stocks, Crypto, Currencies)
-1:Personal Finance Products (Credit Cards, Mortgages, Loans)
-2:Investment & Trading Tools
-3:Regulatory & Consumer Protection Aspects
+            0:Financial News & Market Data (Stocks, Crypto, Currencies)
+            1:Personal Finance Products (Credit Cards, Mortgages, Loans)
+            2:Investment & Trading Tools
+            3:Regulatory & Consumer Protection Aspects
 contentGaps
-0
-gap:Foundational Education on "What is Finance?"
-opportunity:Create a comprehensive, beginner-friendly guide explaining core financial concepts, types of finance (personal, corporate, public), and their importance.
-1
-gap:Holistic Personal Financial Planning Guides
-opportunity:Develop structured content on budgeting, saving strategies, comprehensive retirement planning, and wealth management, going beyond product comparisons.
-2
-gap:Basic Corporate Finance Fundamentals
-opportunity:Introduce foundational topics like the role of finance in business, funding sources, and basic financial statement analysis.
-3
-gap:Simplified Macroeconomic & Financial Theory
-opportunity:Explain how broader economic factors and financial theories influence personal and market finance in an accessible way.
-4
-gap:Ethical & Social Dimensions of Finance
-opportunity:Discuss ethical investing, the societal role of finance, and financial literacy as a social good.
+           0.  gap:Foundational Education on "What is Finance?"
+               opportunity:Create a comprehensive, beginner-friendly guide explaining core financial concepts, types of finance (personal, corporate, public), and their importance.
+           1. gap:Holistic Personal Financial Planning Guides
+              opportunity:Develop structured content on budgeting, saving strategies, comprehensive retirement planning, and wealth management, going beyond product comparisons.
+           2. gap:Basic Corporate Finance Fundamentals
+              opportunity:Introduce foundational topics like the role of finance in business, funding sources, and basic financial statement analysis.
+           3. gap:Simplified Macroeconomic & Financial Theory
+              opportunity:Explain how broader economic factors and financial theories influence personal and market finance in an accessible way.
+           4. gap:Ethical & Social Dimensions of Finance
+              opportunity:Discuss ethical investing, the societal role of finance, and financial literacy as a social good.
 competitorStrengths
-0:Yahoo Finance: Comprehensive real-time market data, news, and extensive personal finance product information/tools.
-1:Google Finance: User-friendly interface for quick market tracking and news aggregation.
-2:IFC: Authoritative and in-depth content on international development finance.
-3:CFPB: Authoritative resources and platform for consumer financial protection and complaints.
+          0:Yahoo Finance: Comprehensive real-time market data, news, and extensive personal finance product information/tools.
+          1:Google Finance: User-friendly interface for quick market tracking and news aggregation.
+          2:IFC: Authoritative and in-depth content on international development finance.
+          3:CFPB: Authoritative resources and platform for consumer financial protection and complaints.
 recommendations
-0
-priority:high
-action:Develop an "Ultimate Guide to Finance" that serves as a central, authoritative educational hub, linking out to more detailed articles.
-1
-priority:high
-action:Create educational content tailored for various levels, from "Finance 101" for beginners to more advanced topics in personal and market finance.
-2
-priority:high
-action:Integrate practical tools, actionable advice, and step-by-step guides on managing finances, investing, and future planning.
-3
-priority:medium
-action:Emphasize financial literacy and empower individuals to make informed financial decisions.
-4
-priority:medium
-action:Include sections covering the breadth of finance, including personal, corporate, public, and development finance, to capture a wider audience.
+          0. priority:high
+             action:Develop an "Ultimate Guide to Finance" that serves as a central, authoritative educational hub, linking out to more detailed articles.
+          1. priority:high
+             action:Create educational content tailored for various levels, from "Finance 101" for beginners to more advanced topics in personal and market finance.
+          2. priority:high
+             action:Integrate practical tools, actionable advice, and step-by-step guides on managing finances, investing, and future planning.
+          3. priority:medium
+             action:Emphasize financial literacy and empower individuals to make informed financial decisions.
+          4. priority:medium
+             action:Include sections covering the breadth of finance, including personal, corporate, public, and development finance, to capture a wider audience.
 suggestedOutline
-0:Introduction: What is Finance?
-1:Pillars of Personal Finance (Budgeting, Debt Management, Investing Basics, Retirement Planning, Insurance, Taxes)
-2:Understanding Financial Markets (Stocks, Bonds, Commodities, Currencies, Crypto, Economic Indicators)
-3:Corporate Finance Fundamentals (Role in Business, Funding, Financial Statements)
-4:The Role of Financial Institutions & Regulation (Banks, Investment Firms, Government Agencies, Consumer Protection)
-5:Future of Finance (Fintech, Sustainable Investing)
-6:Resources for Further Learning
+         0:Introduction: What is Finance?
+         1:Pillars of Personal Finance (Budgeting, Debt Management, Investing Basics, Retirement Planning, Insurance, Taxes)
+         2:Understanding Financial Markets (Stocks, Bonds, Commodities, Currencies, Crypto, Economic Indicators)
+         3:Corporate Finance Fundamentals (Role in Business, Funding, Financial Statements)
+         4:The Role of Financial Institutions & Regulation (Banks, Investment Firms, Government Agencies, Consumer Protection)
+         5:Future of Finance (Fintech, Sustainable Investing)
+         6:Resources for Further Learning
+
+Generated using:
+n8n + SerpAPI + Google Gemini 2.5 Flash
